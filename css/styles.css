@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#app {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero {
+  height: 330px;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #070038;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  justify-content: center;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.wrapper #app h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.wrapper #app .tag-line {
+  text-align: center;
+  margin-top: -1%;
+}
+.wrapper #app .img-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.wrapper #app .img-and-text img {
+  width: 400px;
+  height: 400px;
+}
+.wrapper #app .img-and-text p {
+  width: 400px;
+}
+.wrapper #app .product {
+  height: 300px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper #app .product .product-img {
+  width: 30%;
+  height: 300px;
+}
+.wrapper #app .product .product-img img {
+  height: 300px;
+  margin-left: 100px;
+}
+.wrapper #app .product .product-desc {
+  height: 300px;
+  width: 30%;
+}
+.wrapper .form {
+  margin-top: 20px;
+}
+.wrapper .form .input-box {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .form .input-box input {
+  width: 400px;
+  height: 60px;
+}
+.wrapper .form .message-box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .form .message-box textarea {
+  width: 400px;
+  height: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #070038;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=styles.css.map */

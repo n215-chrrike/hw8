@@ -1,0 +1,9 @@
+# Homework Five
+
+Web4 link to hw assignment:
+https://in-info-web4.informatics.iupui.edu/~chrrike/homework-8/
+
+This assignment had me use jQuery to create a responsive website.
+There are multiple pages that can be viewed from the navigation,
+but there is only one file - index.html. Each section was styled with scss
+and the sections contain images, text, and in the case of contact, a form.
